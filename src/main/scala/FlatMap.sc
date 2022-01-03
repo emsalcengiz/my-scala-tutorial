@@ -33,7 +33,7 @@ val array1d = Array ("1,2,3", "4,5,6", "7,8,9")
 val array2d = array1d.map(x => x.split(","))
 val flatArray = array1d.flatMap(x => x.split(","))
 
-val name = Seq("Goksel", "Bozkartal")
+val name = Seq("Goksel", "Ashley")
 val result = name.flatMap(_.toUpperCase)
 println(result)
 
